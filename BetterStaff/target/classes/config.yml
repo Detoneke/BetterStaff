@@ -1,0 +1,22 @@
+Config:
+  config-reloaded: '&6&l[!] &fThe config has been reloaded!'
+  version-cmd: '&6&l[!] &fPlugin version is &a{version}&f!'
+  invalid-player: '&c&lERROR! &cInvalid player.'
+  no-permission: '&4No perms.'
+  Freeze:
+    # Cooldown in seconds
+    freezed-message-cooldown: 3
+    Messages:
+      target-freezed: '&eYou got freezed! U cant move.'
+      no-arguments: '&c&lERROR! &cUsage: /freeze <player>'
+      sender-target-freezed: '&eTarget has been freezed.'
+  Vanish:
+    Messages:
+      vanished: '&d&lVANISH &8> &fYou has been &avanished&f.'
+      unvanished: '&d&lVANISH &8> &fYou has been &cunvanished&f.'
+      target-vanished: '&d&lVANISH &8> &7{target} &fhas been vanished.'
+      target-unvanished: '&d&lVANISH &8> &7{target} &fhas been unvanished.'
+  Staffchat:
+    format: '&a&l[STAFFCHAT] &7{player} &8> &f{message}'
+    Messages:
+      no-arguments: '&cCorrect usage: /sc <message>'

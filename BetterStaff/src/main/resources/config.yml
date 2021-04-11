@@ -1,0 +1,28 @@
+Config:
+  # Message that appears when reloads config
+  config-reloaded: '&6&l[!] &fThe config has been reloaded!'
+  # Message that appears when you execute /bstaff version
+  version-cmd: '&6&l[!] &fPlugin version is &a{version}&f!'
+  # Message that appears when the player was invalid
+  invalid-player: '&c&lERROR! &cInvalid player.'
+  # Message that appears when the sender dont have permissions
+  no-permission: '&4No perms.'
+  #Freeze config
+  Freeze:
+    # Cooldown in seconds
+    freezed-message-cooldown: 3
+    Messages:
+      target-freezed: '&eYou got freezed! U cant move.'
+      no-arguments: '&c&lERROR! &cUsage: /freeze <player>'
+      sender-target-freezed: '&eTarget has been freezed.'
+  #Vanish config
+  Vanish:
+    Messages:
+      vanished: '&d&lVANISH &8> &fYou has been &avanished&f.'
+      unvanished: '&d&lVANISH &8> &fYou has been &cunvanished&f.'
+      target-vanished: '&d&lVANISH &8> &7{target} &fhas been vanished.'
+      target-unvanished: '&d&lVANISH &8> &7{target} &fhas been unvanished.'
+  Staffchat:
+    format: '&a&l[STAFFCHAT] &7{player} &8> &f{message}'
+    Messages:
+      no-arguments: '&cCorrect usage: /sc <message>'

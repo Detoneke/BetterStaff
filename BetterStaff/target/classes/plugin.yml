@@ -1,0 +1,19 @@
+name: BetterStaff
+version: 1.0-SNAPSHOT
+main: com.nicodev.betterstaff.BetterStaff
+api-version: 1.8
+authors: [ Nicodev ]
+description: A better staff plugin!
+commands:
+  betterstaff:
+    description: Main command
+    aliases: [bstaff, staffplugin]
+  freeze:
+    description: Freeze players!
+    aliases: [froze, congelar]
+  vanish:
+    description: Vanish you
+    aliases: [v]
+  staffchat:
+    description: Private chat for staffs
+    aliases: [sc, cs, chatstaff]
